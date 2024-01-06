@@ -6,3 +6,13 @@ sky:
     database: sky_take_out
     username: root
     password: "1234"
+  alioss:
+    endpoint: oss-cn-beijing.aliyuncs.com
+    access-key-id: LTAI5t9fDq7ZNrGDmLd8gvAE
+    access-key-secret: npXtl1afEqS9c45N23ttmVUnyOchog
+    bucket-name: web-cq2077
+  redis:
+    host: localhost
+    port: 6379
+    password: 123456
+    database: 0 #指定使用哪个数据库
