@@ -25,4 +25,8 @@
     <select id="getBySetmealId" resultType="com.sky.entity.SetmealDish">
         select * from setmeal_dish where setmeal_id = #{setmealId}
     </select>
+
+    <select id="getSetmealsByDishIds" resultType="com.sky.entity.Setmeal">
+        select * from setmeal_dish where setmeal_id = #{setmealId}
+    </select>
 </mapper>
